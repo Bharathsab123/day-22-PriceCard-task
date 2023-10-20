@@ -1,0 +1,64 @@
+body{
+    background-image:linear-gradient(125deg,#0000FF,#6CB4EE) ;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 60px;
+   
+}
+
+button{
+    background-color: #007FFF;
+    padding: 15px;
+    width: 390px;
+    border-radius: 20px;
+    margin-top: 13px;
+    color: white;
+    font-size:15px ;
+    text-decoration:solid ;
+    border: none;
+    
+    
+}
+.blur{
+    opacity: 0.6;
+}
+.text-muted{
+    color:brown ;
+}
+.pricecard{
+    
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.header{
+ text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.cards{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    
+@media screen and (max-width:1400px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+button:hover{
+    background-color:#0039a6;
+}
